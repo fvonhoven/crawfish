@@ -23,7 +23,7 @@ Motion::Project::App.setup do |app|
   # app.deployment_target = '8.0'
 
   # SDK 8 for iOS 7 and above
-  app.sdk_version = '8.1'
+  app.sdk_version = '8.2'
   app.deployment_target = '7.1'
 
   # Or for SDK 7
