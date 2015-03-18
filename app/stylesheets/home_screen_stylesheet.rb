@@ -6,14 +6,14 @@ class HomeScreenStylesheet < ApplicationStylesheet
   end
 
   def root_view(st)
-    st.background_image = image.resource('crawfish.jpg')
-    st.frame = {t: 0, l: 0, w: screen_width, height: screen_height}
+    st.background_image = image.resource('crawfish.png')
+    #st.frame = {t: 50, l: 0}#w: screen_width, height: screen_height}
   end
 
   def hello_world(st)
     st.frame = {t: 100, w: 200, h: 18, centered: :horizontal}
     st.text_alignment = :center
-    st.color = color.battleship_gray
+    st.color = color.black
     st.font = font.medium
     st.text = 'Crawfish'
   end
