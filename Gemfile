@@ -4,6 +4,7 @@ gem "rake"
 gem "redpotion"
 gem "cdq" # Core Data
 gem "afmotion" # Networking
+gem 'MIMInputToolbar', '~> 0.0.3'
 
 # Debugging tools
 gem "newclear" # Completely wipe out the simulator and rebuild

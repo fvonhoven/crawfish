@@ -1,6 +1,7 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    MIMInputToolbar (0.0.3)
     ProMotion (2.2.1)
       methadone (~> 1.7)
     activesupport (3.2.21)
@@ -78,6 +79,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  MIMInputToolbar (~> 0.0.3)
   afmotion
   cdq
   newclear
