@@ -46,6 +46,8 @@ class HomeScreen < PM::Screen
 
   def set_picker_nav_bar
     @picker_nav_bar = MIMInputToolbar.new
+    @picker_nav_bar.previous_title = ""
+    @picker_nav_bar.next_title = ""
     @picker_nav_bar.fields = [@seafood_choices]
   end
 
@@ -56,10 +58,5 @@ class HomeScreen < PM::Screen
     picker.delegate = self
     @seafood_choices.inputView = picker
     @seafood_choices.inputAccessoryView = @picker_nav_bar
-  end
-
-  # Remove the following if you're only using portrait
-  def will_animate_rotate(orientation, duration)
-    find.all.reapply_styles
   end
 end
