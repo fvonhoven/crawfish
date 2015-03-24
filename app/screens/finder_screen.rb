@@ -1,12 +1,13 @@
 class FinderScreen < PM::TableScreen
   title @selected_seafood.to_s
   #refreshable
-  searchable placeholder: ("Search" + @selected_seafood.to_s)
+  searchable placeholder: ("Search")
   row_height :auto, estimated: 44
   attr_accessor :selected_seafood
 
 
   def on_load
+    # TODO set different seafoods data
     mp @selected_seafood
     @data =   [{
       title: "Boiled Crawfish",
@@ -17,7 +18,8 @@ class FinderScreen < PM::TableScreen
           subtitle: "Metairie",
           action: :tap_company,
           arguments: { price: "$4.29" },
-          image: {
+          image:
+          {
           image: "bevi_icon", # PM will do `UIImage.imageNamed("something")` for you
           radius: 15 # radius is optional
           }
@@ -43,7 +45,8 @@ class FinderScreen < PM::TableScreen
           subtitle: "NOLA",
           action: :tap_company,
           arguments: { price: "$4.99" },
-          image: {
+          image:
+          {
           image: "cajun_icon", # PM will do `UIImage.imageNamed("something")` for you
           radius: 15 # radius is optional
           }
@@ -53,7 +56,8 @@ class FinderScreen < PM::TableScreen
           subtitle: "NOLA",
           action: :tap_company,
           arguments: { price: "$5.99" },
-          image: {
+          image:
+          {
           image: "frankie_icon", # PM will do `UIImage.imageNamed("something")` for you
           radius: 15 # radius is optional
           }
@@ -72,8 +76,9 @@ class FinderScreen < PM::TableScreen
           title: "Harbor Seafood",
           subtitle: "Kenner",
           action: :tap_company,
-          arguments: { price: "$4.29" },
-          image: {
+          arguments: { price: "$3.69" },
+          image:
+          {
           image: "harbor_icon", # PM will do `UIImage.imageNamed("something")` for you
           radius: 15 # radius is optional
           }
