@@ -10,8 +10,8 @@ Bundler.require
 Motion::Project::App.setup do |app|
   # Use `rake config' to see complete project settings
 
-  app.name = 'crawfishs'
-  app.identifier = 'com.your_domain_here.crawfishs'
+  app.name = 'Where Dat?'
+  app.identifier = 'com.your_domain_here.crawfish'
 
   app.short_version = '0.1.0'
   # Get version from git
@@ -55,13 +55,13 @@ Motion::Project::App.setup do |app|
 
   app.development do
     app.codesign_certificate = "iPhone Developer: YOURNAME"
-    app.provisioning_profile = "signing/crawfishs.mobileprovision"
+    app.provisioning_profile = "signing/crawfish.mobileprovision"
   end
 
   app.release do
     app.entitlements['get-task-allow'] = false
     app.codesign_certificate = 'iPhone Distribution: YOURNAME'
-    app.provisioning_profile = "signing/crawfishs.mobileprovision"
+    app.provisioning_profile = "signing/crawfish.mobileprovision"
     app.seed_id = "YOUR_SEED_ID"
     app.entitlements['application-identifier'] = app.seed_id + '.' + app.identifier
     app.entitlements['keychain-access-groups'] = [ app.seed_id + '.' + app.identifier ]
