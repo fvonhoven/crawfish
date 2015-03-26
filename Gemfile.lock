@@ -49,6 +49,9 @@ GEM
     molinillo (0.1.2)
     motion-cocoapods (1.7.0)
       cocoapods (>= 0.34)
+    motion-concierge (0.0.2)
+      afmotion (~> 2.5)
+      motion-cocoapods (~> 1.7)
     motion-require (0.2.0)
     motion-yaml (1.4)
     motion_print (0.0.4)
@@ -82,6 +85,7 @@ DEPENDENCIES
   MIMInputToolbar (~> 0.0.3)
   afmotion
   cdq
+  motion-concierge
   newclear
   rake
   redpotion

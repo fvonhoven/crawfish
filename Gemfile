@@ -10,6 +10,7 @@ gem 'MIMInputToolbar', '~> 0.0.3'
 gem "newclear" # Completely wipe out the simulator and rebuild
 
 # Optional
+gem 'motion-concierge'
 
 # gem "ProMotion-form"
 # gem "ProMotion-push", "~> 0.2" # Push Notifications
