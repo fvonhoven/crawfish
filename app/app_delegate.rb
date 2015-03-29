@@ -8,10 +8,9 @@ class AppDelegate < PM::Delegate
 
     # Set up motion-concierge
     MotionConcierge.local_file_name = 'seafood_download.json'
-    # TODO
     MotionConcierge.remote_file_url = 'https://raw.githubusercontent.com/fvonhoven/crawfish/master/resources/seafood.json'
     MotionConcierge.fetch_interval = 86400 # Once a day
-    
+
     open HomeScreen.new(nav_bar: true)
   end
 
