@@ -1,20 +1,3 @@
-// {
-//   "title": "Boiled Crawfish",
-//   "cells":
-//   [
-//     {
-//       "title": "Bevi Seafood Co.",
-//       "subtitle": "Metairie",
-//       "action": "tap_company",
-//       "arguments": { "price": "$4.29" },
-//       "image": {
-//         "image": "bevi_icon",
-//         "radius": 15
-//       }
-//     }
-//   ]
-// }
-
 {
   "title": "Boiled Crawfish",
   "cells":

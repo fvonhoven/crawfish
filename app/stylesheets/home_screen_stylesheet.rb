@@ -6,7 +6,7 @@ class HomeScreenStylesheet < ApplicationStylesheet
   end
 
   def root_view(st)
-    st.background_image = image.resource('crawfish.png')
+    st.background_image = image.resource('crawfish')
     #st.frame = {t: 50, l: 0}#w: screen_width, height: screen_height}
   end
 
