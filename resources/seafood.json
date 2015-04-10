@@ -1,197 +1,197 @@
-{
-  "title": "Boiled Crawfish",
-  "cells":
-  [
-    {
-      "title": "Bevi Seafood Co.",
-      "subtitle": "Metairie",
-      "action": "tap_company",
-      "arguments": { "price": "$4.29" },
-      "image": {
-        "image": "bevi_icon",
-        "radius": 15
-      }
-    }
-  ]
-}
-
 // {
 //   "title": "Boiled Crawfish",
 //   "cells":
 //   [
 //     {
-//         "title": "Perino's Boiling Pot",
-//         "subtitle": "Westbank",
-//         "action": "tap_company",
-//         "arguments": {"price": "$5.50"},
-//     },
-//     {
-//         "title": "Superior Seafood",
-//         "subtitle": "Uptown",
-//         "action": "tap_company",
-//         "arguments": {"price": "$6.00"},
-//     },
-//     {
-//         "title": "Cooter Brown's",
-//         "subtitle": "Uptown",
-//         "action": "tap_company",
-//         "arguments": {"price": "$6.50"},
-//     },
-//     {
-//         "title": "Castnet Seafood",
-//         "subtitle": "New Orleans East",
-//         "action": "tap_company",
-//         "arguments": {"price": "$3.50"},
-//     },
-//     {
-//         "title": "Cajun Brothers Seafood",
-//         "subtitle": "New Orleans",
-//         "action": "tap_company",
-//         "arguments": {"price": "$3.99"},
-//     },
-//     {
-//         "title": "Cajun Seafood",
-//         "subtitle": "New Orleans",
-//         "action": "tap_company",
-//         "arguments": {"price": "$4.99"},
-//     },
-//     {
-//         "title": "Frankie & Johnny's",
-//         "subtitle": "New Orleans",
-//         "action": "tap_company",
-//         "arguments": {"price": "$6.99"},
-//     },
-//     {
-//         "title": "Bayou Beer Garden",
-//         "subtitle": "Midcity",
-//         "action": "tap_company",
-//         "arguments": {"price": "$5.00"},
-//     },
-//     {
-//         "title": "Midcity Yacht Club",
-//         "subtitle": "Midcity",
-//         "action": "tap_company",
-//         "arguments": {"price": "$4.50"},
-//     },
-//     {
-//         "title": "Kjean Seafood",
-//         "subtitle": "Midcity",
-//         "action": "tap_company",
-//         "arguments": {"price": "$3.99"},
-//     },
-//     {
-//         "title": "Broadview Seafood",
-//         "subtitle": "Midcity",
-//         "action": "tap_company",
-//         "arguments": {"price": "$4.99"},
-//     },
-//     {
-//         "title": "Bevi Seafood Co.",
-//         "subtitle": "Metairie",
-//         "action": "tap_company",
-//         "arguments": {"price": "$3.99"},
-//     },
-//     {
-//         "title": "The Galley",
-//         "subtitle": "Metairie",
-//         "action": "tap_company",
-//         "arguments": {"price": "$4.99"},
-//     },
-//     {
-//         "title": "Robert's",
-//         "subtitle": "Metairie",
-//         "action": "tap_company",
-//         "arguments": {"price": "$3.59"},
-//     },
-//     {
-//         "title": "Dennis's Seafood",
-//         "subtitle": "Metairie",
-//         "action": "tap_company",
-//         "arguments": {"price": "$3.45"},
-//     },
-//     {
-//         "title": "Sal's Seafood ",
-//         "subtitle": "Marrero",
-//         "action": "tap_company",
-//         "arguments": {"price": "$3.99"},
-//     },
-//     {
-//         "title": "Morton's Seafood",
-//         "subtitle": "Madisonville",
-//         "action": "tap_company",
-//         "arguments": {"price": "$6.00"},
-//     },
-//     {
-//         "title": "Harbor Seafood & Oyster Bar",
-//         "subtitle": "Kenner",
-//         "action": "tap_company",
-//         "arguments": {"price": "$4.29"},
-//     },
-//     {
-//         "title": "Seither's Seafood",
-//         "subtitle": "Harahan",
-//         "action": "tap_company",
-//         "arguments": {"price": "$3.99"},
-//     },
-//     {
-//         "title": "Charlie's Seafood",
-//         "subtitle": "Harahan",
-//         "action": "tap_company",
-//         "arguments": {"price": "$3.10"},
-//     },
-//     {
-//         "title": "J&J Seafood",
-//         "subtitle": "Gretna",
-//         "action": "tap_company",
-//         "arguments": {"price": "$4.29"},
-//     },
-//     {
-//         "title": "Melba's Oldschool Poboys",
-//         "subtitle": "Gentilly",
-//         "action": "tap_company",
-//         "arguments": {"price": "$4.00"},
-//     },
-//     {
-//         "title": "Zimmer's Seafood",
-//         "subtitle": "Gentilly",
-//         "action": "tap_company",
-//         "arguments": {"price": "$3.39"},
-//     },
-//     {
-//         "title": "Big Fisherman Seafood",
-//         "subtitle": "Garden District",
-//         "action": "tap_company",
-//         "arguments": {"price": "$3.69"},
-//     },
-//     {
-//         "title": "Today's Ketch",
-//         "subtitle": "Chalmette",
-//         "action": "tap_company",
-//         "arguments": {"price": "$3.99"},
-//     },
-//     {
-//         "title": "The Blue Crab",
-//         "subtitle": "Bucktown",
-//         "action": "tap_company",
-//         "arguments": {"price": "$6.00"},
-//     },
-//     {
-//         "title": "Deanie's Seafood",
-//         "subtitle": "Bucktown",
-//         "action": "tap_company",
-//         "arguments": {"price": "$3.39"},
-//     },
-//     {
-//         "title": "Schaefer and Rusich",
-//         "subtitle": "Bucktown",
-//         "action": "tap_company",
-//         "arguments": {"price": "$3.50"},
-//     },
-//     {
-//         "title": "Salvo’s",
-//         "subtitle": "Belle Chasse",
-//         "action": "tap_company",
-//         "arguments": {"price": "$3.75"},
+//       "title": "Bevi Seafood Co.",
+//       "subtitle": "Metairie",
+//       "action": "tap_company",
+//       "arguments": { "price": "$4.29" },
+//       "image": {
+//         "image": "bevi_icon",
+//         "radius": 15
+//       }
 //     }
 //   ]
 // }
+
+{
+  "title": "Boiled Crawfish",
+  "cells":
+  [
+    {
+        "title": "Perino's Boiling Pot",
+        "subtitle": "Westbank",
+        "action": "tap_company",
+        "arguments": {"price": "$5.50"},
+    },
+    {
+        "title": "Superior Seafood",
+        "subtitle": "Uptown",
+        "action": "tap_company",
+        "arguments": {"price": "$6.00"},
+    },
+    {
+        "title": "Cooter Brown's",
+        "subtitle": "Uptown",
+        "action": "tap_company",
+        "arguments": {"price": "$6.50"},
+    },
+    {
+        "title": "Castnet Seafood",
+        "subtitle": "New Orleans East",
+        "action": "tap_company",
+        "arguments": {"price": "$3.50"},
+    },
+    {
+        "title": "Cajun Brothers Seafood",
+        "subtitle": "New Orleans",
+        "action": "tap_company",
+        "arguments": {"price": "$3.99"},
+    },
+    {
+        "title": "Cajun Seafood",
+        "subtitle": "New Orleans",
+        "action": "tap_company",
+        "arguments": {"price": "$4.99"},
+    },
+    {
+        "title": "Frankie & Johnny's",
+        "subtitle": "New Orleans",
+        "action": "tap_company",
+        "arguments": {"price": "$6.99"},
+    },
+    {
+        "title": "Bayou Beer Garden",
+        "subtitle": "Midcity",
+        "action": "tap_company",
+        "arguments": {"price": "$5.00"},
+    },
+    {
+        "title": "Midcity Yacht Club",
+        "subtitle": "Midcity",
+        "action": "tap_company",
+        "arguments": {"price": "$4.50"},
+    },
+    {
+        "title": "Kjean Seafood",
+        "subtitle": "Midcity",
+        "action": "tap_company",
+        "arguments": {"price": "$3.99"},
+    },
+    {
+        "title": "Broadview Seafood",
+        "subtitle": "Midcity",
+        "action": "tap_company",
+        "arguments": {"price": "$4.99"},
+    },
+    {
+        "title": "Bevi Seafood Co.",
+        "subtitle": "Metairie",
+        "action": "tap_company",
+        "arguments": {"price": "$3.99"},
+    },
+    {
+        "title": "The Galley",
+        "subtitle": "Metairie",
+        "action": "tap_company",
+        "arguments": {"price": "$4.99"},
+    },
+    {
+        "title": "Robert's",
+        "subtitle": "Metairie",
+        "action": "tap_company",
+        "arguments": {"price": "$3.59"},
+    },
+    {
+        "title": "Dennis's Seafood",
+        "subtitle": "Metairie",
+        "action": "tap_company",
+        "arguments": {"price": "$3.45"},
+    },
+    {
+        "title": "Sal's Seafood ",
+        "subtitle": "Marrero",
+        "action": "tap_company",
+        "arguments": {"price": "$3.99"},
+    },
+    {
+        "title": "Morton's Seafood",
+        "subtitle": "Madisonville",
+        "action": "tap_company",
+        "arguments": {"price": "$6.00"},
+    },
+    {
+        "title": "Harbor Seafood & Oyster Bar",
+        "subtitle": "Kenner",
+        "action": "tap_company",
+        "arguments": {"price": "$4.29"},
+    },
+    {
+        "title": "Seither's Seafood",
+        "subtitle": "Harahan",
+        "action": "tap_company",
+        "arguments": {"price": "$3.99"},
+    },
+    {
+        "title": "Charlie's Seafood",
+        "subtitle": "Harahan",
+        "action": "tap_company",
+        "arguments": {"price": "$3.10"},
+    },
+    {
+        "title": "J&J Seafood",
+        "subtitle": "Gretna",
+        "action": "tap_company",
+        "arguments": {"price": "$4.29"},
+    },
+    {
+        "title": "Melba's Oldschool Poboys",
+        "subtitle": "Gentilly",
+        "action": "tap_company",
+        "arguments": {"price": "$4.00"},
+    },
+    {
+        "title": "Zimmer's Seafood",
+        "subtitle": "Gentilly",
+        "action": "tap_company",
+        "arguments": {"price": "$3.39"},
+    },
+    {
+        "title": "Big Fisherman Seafood",
+        "subtitle": "Garden District",
+        "action": "tap_company",
+        "arguments": {"price": "$3.69"},
+    },
+    {
+        "title": "Today's Ketch",
+        "subtitle": "Chalmette",
+        "action": "tap_company",
+        "arguments": {"price": "$3.99"},
+    },
+    {
+        "title": "The Blue Crab",
+        "subtitle": "Bucktown",
+        "action": "tap_company",
+        "arguments": {"price": "$6.00"},
+    },
+    {
+        "title": "Deanie's Seafood",
+        "subtitle": "Bucktown",
+        "action": "tap_company",
+        "arguments": {"price": "$3.39"},
+    },
+    {
+        "title": "Schaefer and Rusich",
+        "subtitle": "Bucktown",
+        "action": "tap_company",
+        "arguments": {"price": "$3.50"},
+    },
+    {
+        "title": "Salvo’s",
+        "subtitle": "Belle Chasse",
+        "action": "tap_company",
+        "arguments": {"price": "$3.75"},
+    }
+  ]
+}
