@@ -17,6 +17,8 @@ class FinderScreen < PM::TableScreen
     end
     @data = [parse(json_string)]
 
+    update_table_data
+
   end
 
   def table_data
