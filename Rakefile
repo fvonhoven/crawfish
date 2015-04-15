@@ -15,15 +15,10 @@ Motion::Project::App.setup do |app|
 
   app.short_version = '0.1.0'
   # Get version from git
-  #app.version = (`git rev-list HEAD --count`.strip.to_i).to_s
-  app.version = app.short_version
+  app.version = (`git rev-list HEAD --count`.strip.to_i).to_s
 
-  # SDK 8 for iOS 8 and above
-  # app.sdk_version = '8.1'
-  # app.deployment_target = '8.0'
 
   # SDK 8 for iOS 7 and above
-  app.sdk_version = '8.2'
   app.deployment_target = '7.1'
 
   # Or for SDK 7

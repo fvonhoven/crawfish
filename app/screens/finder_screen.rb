@@ -15,7 +15,9 @@ class FinderScreen < PM::TableScreen
       seed_file = NSBundle.mainBundle.pathForResource('seafood', ofType:'json')
       json_string = String.new(NSString.stringWithContentsOfFile(seed_file))
     end
-    @data = [parse(json_string)]
+    json_data = parse(json_string)
+    mp "JSON parsed incorrectly!" if json_data.nil?
+    @data = [json_data]
 
     update_table_data
 
