@@ -27,7 +27,7 @@ DEPENDENCIES:
   - JMImageCache
 
 SPEC CHECKSUMS:
-  AFNetworking: 8bee59492a6ff15d69130efa4d0dc67e0094a52a
-  JMImageCache: ae1342abeb16d8c4f05c79c926fc49dc07f84dad
+  AFNetworking: 10e85a00bb0f475124e4ff2677bf15693b2c1523
+  JMImageCache: fac25eb168a25b29ac130fee6a6b17ea463c1d86
 
 COCOAPODS: 0.35.0

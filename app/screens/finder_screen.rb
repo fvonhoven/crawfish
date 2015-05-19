@@ -3,6 +3,7 @@ class FinderScreen < PM::TableScreen
   #refreshable
   searchable placeholder: ("Search")
   row_height :auto, estimated: 44
+  stylesheet CustomTableCellStylesheet
   attr_accessor :selected_seafood
 
 
