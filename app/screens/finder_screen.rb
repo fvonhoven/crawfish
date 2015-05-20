@@ -3,25 +3,38 @@ class FinderScreen < PM::TableScreen
   #refreshable
   searchable placeholder: ("Search")
   row_height :auto, estimated: 44
-  stylesheet CustomTableCellStylesheet
+  stylesheet SeafoodTableCellStylesheet
   attr_accessor :selected_seafood
 
 
   def on_load
     # TODO set different seafoods data
-    mp @selected_seafood
+    #given an array of hashes, add another key/value pair to each hash in that array
 
-    unless json_string = MotionConcierge.local_file_string
-      mp "My data came from the local copy"
-      seed_file = NSBundle.mainBundle.pathForResource('seafood', ofType:'json')
-      json_string = String.new(NSString.stringWithContentsOfFile(seed_file))
-    end
-    json_data = parse(json_string)
-    mp "JSON parsed incorrectly!" if json_data.nil?
-    @data = [json_data]
 
+    crawfish_data
     update_table_data
 
+  end
+
+  def crawfish_data
+    test_locally = true
+
+    json_string = if test_locally || MotionConcierge.local_file_string.nil?
+      #TODO json_string = data
+      mp "My data came from the local copy"
+      seed_file = NSBundle.mainBundle.pathForResource('seafood', ofType:'json')
+      String.new(NSString.stringWithContentsOfFile(seed_file))
+    else
+      MotionConcierge.local_file_string
+    end
+
+    json_data = parse(json_string)
+    json_data[:cells].each do |h| 
+      h[:cell_class] = SeafoodCell
+      h[:accessory_type] = :disclosure_indicator
+    end
+    @data = [json_data]
   end
 
   def table_data

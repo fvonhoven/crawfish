@@ -1,4 +1,4 @@
-class CustomCell < PM::TableViewCell
+class SeafoodCell < PM::TableViewCell
 
   def on_load
     @price = rmq.append(UILabel, :price_text_style)

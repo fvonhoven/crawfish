@@ -1,4 +1,4 @@
-class CustomTableCellStylesheet < ApplicationStylesheet
+class SeafoodTableCellStylesheet < ApplicationStylesheet
 
 	def root_view(st)
 	end
