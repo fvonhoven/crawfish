@@ -1,6 +1,7 @@
 class SeafoodTableCellStylesheet < ApplicationStylesheet
 
 	def root_view(st)
+    st.background_color = color.crawfish_red
 	end
 
 	def price_text_style(st)

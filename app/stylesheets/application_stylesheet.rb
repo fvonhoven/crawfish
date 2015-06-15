@@ -23,6 +23,7 @@ class ApplicationStylesheet < RubyMotionQuery::Stylesheet
     color.add_named :tint, '236EB7'
     color.add_named :translucent_black, color(0, 0, 0, 0.4)
     color.add_named :battleship_gray,   '#7F7F7F'
+    color.add_named :crawfish_red, '#c40000'
   end
 
   def standard_button(st)

@@ -30,11 +30,20 @@ class FinderScreen < PM::TableScreen
     end
 
     json_data = parse(json_string)
-    json_data[:cells].each do |h| 
+
+    @data = [add_info(json_data)]
+  end
+
+  def add_info json_data
+    json_data[:cells].each do |h|
       h[:cell_class] = SeafoodCell
       h[:accessory_type] = :disclosure_indicator
+      h[:search_text] = "#{h['subtitle']} #{h[:properties][:price]}"
+      h[:action] = "tap_company"
+      h[:arguments] = {name: h["title"], properties: h[:properties]}
     end
-    @data = [json_data]
+
+    json_data
   end
 
   def table_data
@@ -49,7 +58,7 @@ class FinderScreen < PM::TableScreen
   end
 
   def tap_company company
-    #value = state.each_value {|value| p "VISIT #{value.upcase} MO FUCKA"}
-    p "#{company[:price].upcase}\/lb."
+    mp "#{company[:name]} with:"
+    mp company[:properties]
   end
 end
