@@ -2,15 +2,14 @@ class FinderScreen < PM::TableScreen
   title @selected_seafood.to_s
   #refreshable
   searchable placeholder: ("Search")
-  row_height :auto, estimated: 44
-  stylesheet SeafoodTableCellStylesheet
+  stylesheet CustomSeafoodCellStyle
   attr_accessor :selected_seafood
 
 
   def on_load
     # TODO set different seafoods data
     #given an array of hashes, add another key/value pair to each hash in that array
-
+    @table_data = []
 
     crawfish_data
     update_table_data
@@ -36,11 +35,12 @@ class FinderScreen < PM::TableScreen
 
   def add_info json_data
     json_data[:cells].each do |h|
-      h[:cell_class] = SeafoodCell
-      h[:accessory_type] = :disclosure_indicator
+      h[:cell_class] = CustomSeafoodCell
+      h[:height] = 260
+      # h[:accessory_type] = :disclosure_indicator
       h[:search_text] = "#{h['subtitle']} #{h[:properties][:price]}"
       h[:action] = "tap_company"
-      h[:arguments] = {name: h["title"], properties: h[:properties]}
+      h[:arguments] = {name: h["name"], city: h["city"], properties: h[:properties]}
     end
 
     json_data
