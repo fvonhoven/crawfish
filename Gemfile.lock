@@ -1,3 +1,10 @@
+GIT
+  remote: git://github.com/gantman/RedAlert.git
+  revision: 003baceb911736b2fb4996f3672a61755ddf70c6
+  specs:
+    RedAlert (1.4)
+      ruby_motion_query (>= 1.3.4)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -5,8 +12,6 @@ GEM
     ProMotion (2.4.2)
       methadone (~> 1.7)
       motion_print (~> 1.0)
-    RedAlert (1.1)
-      ruby_motion_query (>= 1.3.4)
     activesupport (3.2.21)
       i18n (~> 0.6, >= 0.6.4)
       multi_json (~> 1.0)
@@ -86,9 +91,13 @@ PLATFORMS
 
 DEPENDENCIES
   MIMInputToolbar (~> 0.0.3)
+  RedAlert!
   afmotion
   cdq
   motion-concierge
   newclear
   rake
   redpotion
+
+BUNDLED WITH
+   1.10.6
