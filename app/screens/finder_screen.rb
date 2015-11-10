@@ -37,6 +37,7 @@ class FinderScreen < PM::TableScreen
     json_data[:cells].each do |h|
       h[:cell_class] = CustomSeafoodCell
       h[:height] = 260
+      # h[:properties] = h[:properties].merge(background_color: color.translucent_black)
       # h[:accessory_type] = :disclosure_indicator
       h[:search_text] = "#{h['subtitle']} #{h[:properties][:price]}"
       h[:action] = "tap_company"

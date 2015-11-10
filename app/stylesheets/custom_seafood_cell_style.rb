@@ -11,12 +11,14 @@ class CustomSeafoodCellStyle < ApplicationStylesheet
   end
 
   def price_text_style(st)
+    # st.color = color.white
     st.background_color = color.clear
     st.frame = {t: st.prev_frame.top, h: 20, fr: 10, w: 100}
     st.text_alignment = :center
   end
 
   def name_text_style(st)
+    # st.color = color.white
     st.background_color = color.clear
     st.frame = {t: 195, h: 20, l: 13, w: screen_width/2}
     st.size_to_fit = true
@@ -24,6 +26,7 @@ class CustomSeafoodCellStyle < ApplicationStylesheet
   end
 
   def city_text_style(st)
+    # st.color = color.white
     st.background_color = color.clear
     st.frame = {t: 213, h: 20, l: 13, w: screen_width/2}
     st.size_to_fit = true
