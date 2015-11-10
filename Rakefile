@@ -44,12 +44,12 @@ Motion::Project::App.setup do |app|
   app.pods do
     pod 'JMImageCache'
   #   pod 'JGProgressHUD'
-  #   pod 'SVProgressHUD'
+    pod 'SVProgressHUD'
   #   pod "FontasticIcons"
   end
 
   app.development do
-    app.codesign_certificate = "iPhone Developer: YOURNAME"
+    app.codesign_certificate = "iPhone Developer: Frank von Hoven (B7KKCYZ5HP)"
     app.provisioning_profile = "signing/crawfish.mobileprovision"
   end
 
